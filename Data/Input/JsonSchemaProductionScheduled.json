@@ -1,0 +1,29 @@
+﻿{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "bots": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+			"reference": {
+				"type":"string"
+			},
+          "nombre": {
+            "type": "string"
+          },
+          "fecha_ejecucion": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "status": {
+            "type": "string",
+            "enum": ["OK", "Pending"]
+          }
+        },
+        "required": ["NameBot", "Schedule Date", "Status"]
+      }
+    }
+  }
+}

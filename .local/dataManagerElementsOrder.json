@@ -1,0 +1,192 @@
+{
+  "Workflows": [
+    {
+      "Path": null,
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Main.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "PasswodCrTransactionField6&StateMachine_1",
+        "UserNameCrTransactionField5&StateMachine_1",
+        "UrlControlRoomTransactionField4&StateMachine_1",
+        "TransactionField3&StateMachine_1",
+        "ScheduleCount&State_4",
+        "dTransactionItem&State_4",
+        "AssetConfig&StateMachine_1",
+        "strNewGUID&StateMachine_1",
+        "TransactionItem&StateMachine_1",
+        "SystemException&StateMachine_1",
+        "BusinessException&StateMachine_1",
+        "TransactionNumber&StateMachine_1",
+        "Config&StateMachine_1",
+        "RetryNumber&StateMachine_1",
+        "TransactionField2&StateMachine_1",
+        "TransactionField1&StateMachine_1",
+        "TransactionID&StateMachine_1",
+        "dt_TransactionData&StateMachine_1",
+        "ConsecutiveSystemExceptions&StateMachine_1",
+        "ShouldStop&Sequence_25"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_OrchestratorQueueName",
+        "in_OrchestratorQueueFolder"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Framework/InitAllSettings.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "dt_SettingsAndConstants&Sequence_5",
+        "dt_Assets&Sequence_6",
+        "AssetValue&Sequence_11"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "out_AssetConfig",
+        "in_ConfigFile",
+        "in_ConfigSheets",
+        "out_Config"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Framework/InitAllApplications.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "SecPasswodCrTransactionField6&Sequence_9",
+        "strLoguin&Sequence_11",
+        "stUrlControlRoom&Sequence_9"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_UrlControlRoomTransactionField4",
+        "in_UserNameCrTransactionField5",
+        "in_PasswodCrTransactionField6",
+        "in_Config"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Framework/KillAllProcesses.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Framework/GetTransactionData.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "sTransactionFields&Sequence_3",
+        "lstTransactionFields&Sequence_1",
+        "lstScheduleBot&Sequence_25",
+        "sScheduleBot&Sequence_1",
+        "ScheduleCount&Sequence_25",
+        "status&Sequence_26",
+        "lstTransactionUpdate&Sequence_26",
+        "fecha_ejecucion&Sequence_26",
+        "nombre&Sequence_26",
+        "temporaAssetConfigIE&Sequence_26"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "out_TransactionItem",
+        "out_TransactionField1",
+        "out_TransactionField2",
+        "out_TransactionID",
+        "io_dt_TransactionData",
+        "in_AssetConfig",
+        "in_strNewGUID",
+        "out_TransactionField3",
+        "out_PasswodCrTransactionField6",
+        "out_UserNameCrTransactionField5",
+        "out_UrlControlRoomTransactionField4",
+        "in_TransactionNumber",
+        "in_Config"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Framework/CloseAllApplications.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Framework/Process.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [
+        "in_PasswodCrTransactionField6",
+        "in_UserNameCrTransactionField5",
+        "in_UrlControlRoomTransactionField4",
+        "in_TransactionNumber",
+        "in_TransactionField3",
+        "in_TransactionField2",
+        "in_TransactionField1",
+        "in_TransactionID",
+        "in_TransactionItem",
+        "in_Config"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Framework/SetTransactionStatus.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "QueueRetry&Sequence_17",
+        "ScreenshotPath&Sequence_17"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_BusinessException",
+        "in_TransactionField1",
+        "in_TransactionField2",
+        "in_TransactionID",
+        "in_SystemException",
+        "in_Config",
+        "in_TransactionItem",
+        "io_RetryNumber",
+        "io_TransactionNumber",
+        "io_ConsecutiveSystemExceptions"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Process Control Room AAI/Control Room AA360 Manage Bots.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "TransactionNumber&StateMachine_1",
+        "ConsecutiveSystemExceptions&StateMachine_1",
+        "Config&Sequence_2",
+        "SystemException&StateMachine_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_PasswodCrTransactionField6",
+        "in_UserNameCrTransactionField5",
+        "in_UrlControlRoomTransactionField4",
+        "in_TransactionField3",
+        "in_TransactionNumber",
+        "in_TransactionItem",
+        "in_TransactionField2",
+        "in_TransactionField1",
+        "in_TransactionID",
+        "in_Config"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    }
+  ]
+}
