@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ### Documentation is included in the Documentation folder ###
 
 
@@ -37,3 +38,5 @@
 2. Implement InitiAllApplications.xaml and CloseAllApplicatoins.xaml workflows, linking them in the Config.xlsx fields
 3. Implement GetTransactionData.xaml and SetTransactionStatus.xaml according to the transaction type being used (Orchestrator queues by default)
 4. Implement Process.xaml workflow and invoke other workflows related to the process being automated
+======= 
+>>>>>>> 84c953a82bf880e55767ea4d9320dd7c964cd07b
